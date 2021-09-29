@@ -10,44 +10,24 @@ maths=int(input("Marks in Maths: "))
 science=int(input("Marks in Science: "))
 sst=int(input("Marks in Social Science: "))
 total_percentage=(english+hindi+maths+science+sst)/5
-if total_percentage>=97:
-	grade="A+"
-elif total_percentage>=93:
-    grade="A"
-elif total_percentage>=90:
-    grade="A-"
-elif total_percentage>=87:
-    grade="B+"
-elif total_percentage>=83:
-	grade="B"
-elif total_percentage>=80:
-	grade="B-"
-elif total_percentage>=77:
-    grade="C+"
-elif total_percentage>=73:
-    grade="C"
-elif total_percentage>=70:
-	grade="C-"
-elif total_percentage>=67:
-	grade="D+"
-elif total_percentage>=65:
-	grade="D"
-elif total_percentage>=64:
-	grade="D- "
-elif total_percentage>=60:
-	grade="E"
-elif total_percentage>=50:
-	grade="F"
-elif total_percentage>=40:
-	grade="G"
+cgpa=int(total_percentage/9.5)
+if total_percentage>=91:
+	grade="A1"
+elif total_percentage>=81:
+	grade="A2"
+elif total_percentage>=71:
+	grade="B1"
+elif total_percentage>=61:
+	grade="B2"
+elif total_percentage>=51:
+	grade="C1"
+elif total_percentage>=41:
+	grade="C2"
 elif total_percentage>=33:
-    grade="H"
+    grade="D1"
 elif total_percentage<=32:
     grade="FAIL"
-print(name,'of class',c+'th',s,'scored',total_percentage,'% &',grade,'Grade')
+print(name,'of class',c+'th',s,'scored',total_percentage,'% &',cgpa,'CGPA','with',grade,)
 print("""\nCongratulation for your achievement
 Choose what you like
 Study hard in your upcoming classes""")
-
-
-
