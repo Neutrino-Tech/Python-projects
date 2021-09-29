@@ -44,7 +44,7 @@ elif total_percentage>=33:
     grade="H"
 elif total_percentage<=32:
     grade="FAIL"
-print(name,'of class',c+'th',s,'passed with',total_percentage,'% &',grade,'Grade')
+print(name,'of class',c+'th',s,'scored',total_percentage,'% &',grade,'Grade')
 print("""\nCongratulation for your achievement
 Choose what you like
 Study hard in your upcoming classes""")
