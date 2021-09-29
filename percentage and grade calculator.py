@@ -24,9 +24,9 @@ elif total_percentage>=51:
 	print("Your Grade: C1")
 elif total_percentage>=41:
 	print("Your Grade: C2")
-elif total_percentage>=33:
+elif total_percentage>=32.5:
     print("Your Grade: D1")
-elif total_percentage<=32:
+else:
     print("FAIL")
 print("""\nCongratulation for your achievement
 Choose what you like
