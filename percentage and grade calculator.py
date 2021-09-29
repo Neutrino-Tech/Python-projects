@@ -10,7 +10,7 @@ maths=int(input("Marks in Maths: "))
 science=int(input("Marks in Science: "))
 sst=int(input("Marks in Social Science: "))
 total_percentage = (english+hindi+maths+science+sst)/5
-print(name,'of class',c+'th',s,'passed with',total_percentage,'%')
+print(name,'of class',c+'th',s,'scored',total_percentage,'%')
 if total_percentage>=97:
 	print("Your Grade: A+")
 elif total_percentage>=93:
