@@ -23,9 +23,9 @@ elif total_percentage>=51:
 	grade="C1"
 elif total_percentage>=41:
 	grade="C2"
-elif total_percentage>=33:
+elif total_percentage>=32.5:
     grade="D1"
-elif total_percentage<=32:
+else:
     grade="FAIL"
 print(name,'of class',c+'th',s,'scored',total_percentage,'% &',cgpa,'CGPA','with',grade,)
 print("""\nCongratulation for your achievement
