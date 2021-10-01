@@ -28,6 +28,3 @@ elif total_percentage>=32.5:
     print("Your Grade: D1")
 else:
     print("FAIL")
-print("""\nCongratulation for your achievement
-Choose what you like
-Study hard in your upcoming classes""")
