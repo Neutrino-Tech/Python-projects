@@ -28,6 +28,4 @@ elif total_percentage>=32.5:
 else:
     grade="FAIL"
 print(name,'of class',c+'th',s,'scored',total_percentage,'% &',cgpa,'CGPA','with',grade,)
-print("""\nCongratulation for your achievement
-Choose what you like
-Study hard in your upcoming classes""")
+
